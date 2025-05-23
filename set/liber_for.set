@@ -1,0 +1,38 @@
+{breed
+{behaviour soldier}
+{skin "liber_For"}
+{portrait liber_for}
+{icon lib}
+{icon_priority 0}
+{tags "lib"}
+{nationality eng}
+{voice eng}
+{armors
+{head cup}
+}
+{perks
+{"rifle" lvl_1}
+{"melee" lvl_1}
+{"pistol" lvl_2}
+{"smg" lvl_3}
+{"mgun" lvl_4}
+{"rocketlauncher" lvl_2}
+{"at_rifle" lvl_3}
+{"speed" lvl_1}
+{"stamina" "100%"}
+{"stamina_regeneration" "200%"}
+{"health" "500%"}
+{"health_regeneration" "200%"}
+}
+{veterancy
+{"lvl_1" 10}
+{"lvl_2" 20}
+{"lvl_3" 35}
+{"lvl_4" 50}
+{"lvl_5" 100}
+}
+{inventory
+{item "ak-74"}
+{item "pistol ammo" 350 }
+}
+}

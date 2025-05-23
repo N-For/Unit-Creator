@@ -1,0 +1,365 @@
+﻿  TCotU.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(14,21): error C2039: "filesystem": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(23,1):
+       см. объявление "std"
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(14,21): error C2878: filesystem: пространство имен или класс с таким именем не существует
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(99,23): warning C4312: reinterpret_cast: преобразование из "const int" в "HMENU" большего размера
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(133,13): error C2065: IDD_DIALOG1: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(160,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(160,17): error C3861: create_directories: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(161,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(161,17): error C3861: create_directories: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(162,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(162,17): error C3861: create_directories: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(163,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(163,17): error C3861: create_directories: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(174,17): error C2664: "UINT GetDlgItemTextW(HWND,int,LPWSTR,int)": невозможно преобразовать аргумент 3 из "const _Elem *" в "LPWSTR"
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(174,17): error C2664:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(174,17): error C2664:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(174,17): error C2664:             _Elem=wchar_t
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(174,17): error C2664:         ]
+      F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(175,32):
+      В результате преобразования теряются квалификаторы
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(5194,1):
+       см. объявление "GetDlgItemTextW"
+      F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(174,17):
+      при попытке сопоставить список аргументов "(HWND, int, const _Elem *, DWORD)"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(181,20): error C3861: format: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(180,20): error C2593: неоднозначный "оператор <<"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(480,39):
+      может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(448,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(430,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(412,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(394,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(376,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(358,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(340,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(322,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(303,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(277,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(258,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(224,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(206,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(200,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(194,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(189,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(1031,32):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(947,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(941,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(936,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(930,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(813,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(768,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(732,32):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(688,32):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
+      F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(180,20):
+      при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, unknown-type)"
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17): error C2672: "getline": не найдена соответствующая перегруженная функция
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(82,32):
+      может быть "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ifstream'
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)": в шаблон параметр "_Elem" неоднозначен
+              F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+              может быть "wchar_t"
+              F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+              или       "char"
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &' из '_Ty'
+          with
+          [
+              _Ty=std::wstring
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(75,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": ожидаются аргументы 3 — 2 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(68,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)"
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &&' из 'std::ifstream'
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)": в шаблон параметр "_Elem" неоднозначен
+              F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+              может быть "wchar_t"
+              F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+              или       "char"
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &' из '_Ty'
+          with
+          [
+              _Ty=std::wstring
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(25,32):
+      или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(189,17):
+          "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": ожидаются аргументы 3 — 2 предоставлены
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,36): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,40): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,64): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,64): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,64): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,64): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,64): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(192,17): error C3861: create_directories: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(193,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(194,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(194,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(194,63): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(195,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(195,35): error C2065: overwrite_existing: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(193,17): error C3861: copy_file: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(196,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,45): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,45): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,45): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,45): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(197,45): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(198,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(198,35): error C2065: overwrite_existing: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(196,17): error C3861: copy_file: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(199,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,45): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,45): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,45): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,45): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(200,45): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(201,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(201,35): error C2065: overwrite_existing: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(199,17): error C3861: copy_file: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(202,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,45): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,45): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,45): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,45): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(203,45): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(204,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(204,35): error C2065: overwrite_existing: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(202,17): error C3861: copy_file: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(205,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,45): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,45): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,45): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,45): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(206,45): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(207,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(207,35): error C2065: overwrite_existing: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(205,17): error C3861: copy_file: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,17): error C2065: path: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "base"
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,22): error C2065: base: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,29): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,33): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,57): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,57): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,57): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,57): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(210,57): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(211,22): error C2065: base: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(211,50): error C3861: format: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(211,21): error C2593: неоднозначный "оператор <<"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(480,39):
+      может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(448,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(430,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(412,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(394,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(376,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(358,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(340,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(322,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(303,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(277,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(258,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(224,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(206,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(200,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(194,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(189,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+      F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(211,21):
+      при попытке сопоставить список аргументов "(std::ofstream, unknown-type)"
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(216,22): error C2065: base: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(216,54): error C3861: format: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(216,21): error C2593: неоднозначный "оператор <<"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(480,39):
+      может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(448,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(430,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(412,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(394,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(376,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(358,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(340,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(322,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(303,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(277,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(258,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(224,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(206,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(200,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(194,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(189,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+      F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(216,21):
+      при попытке сопоставить список аргументов "(std::ofstream, unknown-type)"
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,36): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,40): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,67): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,67): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,67): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,67): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,67): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(220,17): error C3861: create_directories: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(221,13): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(222,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(222,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(222,33): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,21): error C3861: path: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,48): error C2677: бинарный "/": не найден глобальный оператор, принимающий тип "_Ty" (или приемлемое преобразование отсутствует)
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,48): error C2677:         with
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,48): error C2677:         [
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,48): error C2677:             _Ty=std::wstring
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(223,48): error C2677:         ]
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(224,17): error C2653: fs: не является именем класса или пространства имен
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(224,35): error C2065: overwrite_existing: необъявленный идентификатор
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(221,17): error C3861: copy_file: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(233,20): error C3861: format: идентификатор не найден
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(233,13): error C2593: неоднозначный "оператор <<"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(480,39):
+      может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(448,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(430,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(412,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(394,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(376,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(358,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(340,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(322,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(303,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(277,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(258,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(224,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(206,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(200,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(194,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(189,39):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(1031,32):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(947,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(941,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(936,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(930,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(813,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(768,31):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(732,32):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(688,32):
+      или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
+      F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(233,13):
+      при попытке сопоставить список аргументов "(std::ofstream, unknown-type)"
+  
+F:\бэкап sp 64gb\work\programs-relis\TCotU\TCotU.cpp(148,77): error C1075: "{": не найдена несоответствующая лексема

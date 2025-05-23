@@ -1,0 +1,8 @@
+resource/entity/humanskin/g-1/material#1.mtl
+resource/entity/humanskin/g-1/g-1.def
+resource/set/breed/g
+copy set\g-1.set resource\set\breed\g\g-1.set
+copy res\temp.tga resource\interface\scene\portrait\g-1.tga
+resource/entity/humanskin/g-1
+button-2 no work
+button is work
